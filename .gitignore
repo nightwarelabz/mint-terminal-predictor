@@ -1,0 +1,18 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Shell and Python runtime artefacts
+*.mint-predict.bak.*
+__pycache__/
+*.py[cod]
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
